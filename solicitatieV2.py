@@ -12,7 +12,7 @@ snor = 'ja'
 snor2 = 0
 
 if geslacht == 'man':
-    lengte = int (input('hoelang bent u? '))
+    lengte = int(input('hoelang bent u? '))
     if lengte >= 150:
         snor = input('heeft u een snor? ')
     if snor == 'ja':
@@ -22,7 +22,9 @@ if geslacht == 'man':
          snor2 = 0
 
 if geslacht =='vrouw':
-    redHair = input('heeft u rood krullig haar? ')
+    lengte = int(input('hoelang bent u? '))
+    if lengte >= 150:
+        redHair = input('heeft u rood krullig haar? ')
     if redHair == 'ja':
         haarlengte = int(input('hoe lang is uw haar? '))
 else:
